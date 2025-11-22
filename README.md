@@ -13,17 +13,19 @@
 
 ## 如何运行
 
-由于您的环境中似乎缺少 `javac`，请确保您已安装 JDK 并将其 `bin` 目录添加到系统的 PATH 环境变量中。
+您的 JDK 安装在 `C:\Program Files\Java\jdk1.8.0_151`，但未添加到系统 PATH 中。请使用以下命令编译和运行：
 
 1.  **编译代码**：
     ```bash
-    javac src/Main.java
+    & "C:\Program Files\Java\jdk1.8.0_151\bin\javac.exe" src/Main.java
     ```
 
 2.  **运行程序**：
     ```bash
     java -cp src Main
     ```
+
+> **提示**：为了方便以后使用，建议将 `C:\Program Files\Java\jdk1.8.0_151\bin` 添加到您的系统环境变量 `Path` 中。
 
 ## 如何同步到 GitHub
 
