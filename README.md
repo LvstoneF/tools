@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# tools
-漏扫文档整理工具
-=======
-# Java GUI Project
+# NSFOCUS Report Tool (绿盟漏扫报告处理工具)
 
-这是一个简单的 Java Swing GUI 项目示例。
+这是一个用于处理绿盟漏扫报告（doc版本）的文档处理工具。
 
 ## 环境要求
 
@@ -27,19 +23,15 @@
 
 > **提示**：为了方便以后使用，建议将 `C:\Program Files\Java\jdk1.8.0_151\bin` 添加到您的系统环境变量 `Path` 中。
 
-## 如何同步到 GitHub
+## 项目同步
 
-由于您没有安装 `gh` 命令行工具，请按照以下步骤手动同步：
+本项目已托管于 GitHub：[https://github.com/LvstoneF/tools](https://github.com/LvstoneF/tools)
 
-1.  登录 [GitHub](https://github.com) 并创建一个新的空仓库（Repository）。
-2.  在本项目根目录下打开终端，执行以下命令（替换 URL 为您的仓库地址）：
+### 常用命令
 
+- **提交更改**：
     ```bash
-    git init
     git add .
-    git commit -m "Initial commit"
-    git branch -M main
-    git remote add origin <您的GitHub仓库URL>
-    git push -u origin main
+    git commit -m "描述您的更改"
+    git push
     ```
->>>>>>> 6ee978b (Initial commit)
